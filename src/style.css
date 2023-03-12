@@ -3,17 +3,19 @@ body {
     font-size: 18px;
     margin: 1% 5%;
     background-color:E6F7FF;
+    background-color: rgb(182, 117, 243);
 }
 
 main {
-    display: grid;
+    display: flex;
     grid-template-columns: 50% 50%;
 }
 
 
 .box {
     box-shadow: .1em .1em .2em #80D4FF;
-    border-radius: .4em;
+    border-radius: .1em;
+    border-color: rgb(87, 79, 88);
     border-width: .01em;
     border-style: solid;
     margin-left: .4em;
@@ -23,19 +25,19 @@ main {
 }
 
 h1 {
-    color: navy;
+    color: black;
     margin: 0em;
     display: block;
 }
 
 h2 {
-    color: navy;
+    color: rgb(182, 117, 243);
     font-size: 1.2em;
     margin: 0em;
 }
 
 h3 {
-    color: navy;
+    color: rgb(70, 4, 131);
     font-size: 1em;
     margin: 0em;
 }
